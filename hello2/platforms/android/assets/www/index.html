@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Example</title>
+
+       <script type="text/javascript" src="cordova.js"></script>
+       <script type="text/javascript" src="js/index.js"></script>
+	   <script type="text/javascript" src="js/contact.js"></script>
+       <script type="text/javascript">
+            app.initialize();
+       </script>
+       <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+			setupContact();
+    } 
+	
+	
+    </script>
+  </head>
+  <body>
+    <h1>Example</h1>
+    <p>Create Contact</p>
+         <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
+
+	
+  </body>
+</html>
+
